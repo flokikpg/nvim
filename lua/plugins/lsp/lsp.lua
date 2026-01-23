@@ -13,8 +13,7 @@ return {
       capabilities = capabilities,
     })
   end,
-  },
-  { "antosha417/nvim-lsp-file-operations", config = true },
-  { "folke/lazydev.nvim", opts = {} },
-
+ },
+ { "antosha417/nvim-lsp-file-operations", config = true },
+ { "folke/lazydev.nvim", opts = {} },
 }

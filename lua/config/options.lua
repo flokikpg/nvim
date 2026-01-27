@@ -1,31 +1,15 @@
 -- OPTIONS
 local set = vim.opt
 
---line nums
-set.relativenumber = true
 set.number = true
-
--- cursor line
 set.cursorline = true
-
--- indentation and tabs
+set.relativenumber = true
 set.tabstop = 4
 set.shiftwidth = 4
+set.smartindent = true
 set.autoindent = true
-set.expandtab = true
-
--- appearance
 set.termguicolors = true
-set.background = "dark"
+set.swapfile = false
+set.wrap = false
+set.winborder = "rounded"
 -- set.signcolumn = "yes"
-
--- clipboard
-set.clipboard:append("unnamedplus")
-
--- backspace
-set.backspace = "indent,eol,start"
-
--- split windows
-set.splitbelow = true
-set.splitright = true
-

@@ -12,4 +12,5 @@ set.termguicolors = true
 set.swapfile = false
 set.wrap = false
 set.winborder = "rounded"
--- set.signcolumn = "yes"
+set.signcolumn = "yes"
+set.laststatus = 0
